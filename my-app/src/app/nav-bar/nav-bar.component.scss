@@ -24,8 +24,10 @@ body {
   }
   
   .topnav a.active {
-    background-color: #04AA6D;
+    // background-color: #04AA6D;
     color: white;
+    height: 80px;
+    font-size: 20px;
   }
   
   .topnav .icon {
