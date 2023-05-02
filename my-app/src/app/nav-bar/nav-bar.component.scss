@@ -5,7 +5,9 @@ body {
   
   .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(30, 76, 98, 0.939);
+    padding: 20px;
+    width: 100%;
   }
   
   .topnav a {
@@ -18,10 +20,10 @@ body {
     font-size: 17px;
   }
   
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
+  // .topnav a:hover {
+  //   background-color: #ddd;
+  //   color: black;
+  // }
   
   .topnav a.active {
     // background-color: #04AA6D;
@@ -31,7 +33,7 @@ body {
   }
   
   .topnav .icon {
-    display: none;
+    display: hidden;
   }
   
   @media screen and (max-width: 800px) {
@@ -42,10 +44,10 @@ body {
     }
   }
   
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 900px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
-      position: absolute;
+      position: sticky;
       right: 0;
       top: 0;
     }
@@ -55,3 +57,8 @@ body {
       text-align: left;
     }
   }
+.topnav a.icon{
+  position: absolute;
+  display: flex;
+  
+}

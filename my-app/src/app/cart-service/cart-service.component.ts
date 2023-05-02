@@ -1,30 +1,30 @@
-import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { ProductsComponent } from '../products/products.component';
-// import { Product } from './products';
+// import { Component, OnInit } from '@angular/core';
+// import { ActivatedRoute } from '@angular/router';
+// import { ProductsComponent } from '../products/products.component';
+// // import { Product } from './products';
 
-@Component({
-  selector: 'app-cart-service',
-  templateUrl: './cart-service.component.html',
-  styleUrls: ['./cart-service.component.scss']
-})
-export class CartServiceComponent {
-  items: ProductsComponent[] = [];
-/* . . . */
+// @Component({
+//   selector: 'app-cart-service',
+//   templateUrl: './cart-service.component.html',
+//   styleUrls: ['./cart-service.component.scss']
+// })
+// export class CartServiceComponent {
+//   items: ProductsComponent[] = [];
+// /* . . . */
 
-  addToCart(product: ProductsComponent) {
-    this.items.push(product);
-  }
+//   addToCart(product: ProductsComponent) {
+//     this.items.push(product);
+//   }
 
-  getItems() {
-    return this.items;
-  }
+//   getItems() {
+//     return this.items;
+//   }
 
-  clearCart() {
-    this.items = [];
-    return this.items;
-  }
-}
+//   clearCart() {
+//     this.items = [];
+//     return this.items;
+//   }
+// }
 
 // export class ProductsComponent implements OnInit {
 
