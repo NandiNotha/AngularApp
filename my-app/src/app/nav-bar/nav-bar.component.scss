@@ -57,8 +57,8 @@ body {
       text-align: left;
     }
   }
-.topnav a.icon{
-  position: absolute;
+.topnav .cart{
   display: flex;
-  
+  align-items: center;
+  margin-left: auto;
 }

@@ -16,13 +16,14 @@ export class ProductsComponent {
   cart: Product[] = [];
 
   addToCart() {
-    let product: Product = {
-      name: "Product Name",
-      price: 9.99,
-      quantity: 1
-    };
+    // let product: Product = {
+    //   name: "Product Name",
+    //   price: 9.99,
+    //   quantity: 1
+    // };
 
-    this.cart.push(product);
+    // this.cart.push(product);
+    alert('Product added to the cart, view cart')
   }
 
 }
